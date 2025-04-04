@@ -16,3 +16,38 @@
 [debug] [2025-04-04T17:28:49.256Z] Checked if tokens are valid: true, expires at: 1743790835659
 [debug] [2025-04-04T17:28:49.257Z] Checked if tokens are valid: true, expires at: 1743790835659
 [debug] [2025-04-04T17:28:49.259Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/se2-cicd-c4467/sites 
+[debug] [2025-04-04T17:28:50.264Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/se2-cicd-c4467/sites 200
+[debug] [2025-04-04T17:28:50.264Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/se2-cicd-c4467/sites {"sites":[{"name":"projects/se2-cicd-c4467/sites/se2-cicd-c4467","defaultUrl":"https://se2-cicd-c4467.web.app","type":"DEFAULT_SITE"}]}
+[debug] [2025-04-04T17:28:50.264Z] Checked if tokens are valid: true, expires at: 1743790835659
+[debug] [2025-04-04T17:28:50.264Z] Checked if tokens are valid: true, expires at: 1743790835659
+[debug] [2025-04-04T17:28:50.265Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/se2-cicd-c4467/webApps/-/config [none]
+[debug] [2025-04-04T17:28:51.323Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/se2-cicd-c4467/webApps/-/config 200
+[debug] [2025-04-04T17:28:51.323Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/se2-cicd-c4467/webApps/-/config {"projectId":"se2-cicd-c4467","storageBucket":"se2-cicd-c4467.firebasestorage.app","apiKey":"AIzaSyAc1vz6tfgZQ4DGxkyLmgJWl4JAzeE7D24","authDomain":"se2-cicd-c4467.firebaseapp.com","messagingSenderId":"392873821492"}
+[debug] [2025-04-04T17:28:51.341Z] Checked if tokens are valid: true, expires at: 1743790835659
+[debug] [2025-04-04T17:28:51.342Z] Checked if tokens are valid: true, expires at: 1743790835659
+[debug] [2025-04-04T17:28:51.342Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/se2-cicd-c4467 [none]
+[debug] [2025-04-04T17:28:51.734Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/se2-cicd-c4467 200
+[debug] [2025-04-04T17:28:51.734Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/se2-cicd-c4467 {"projectId":"se2-cicd-c4467","projectNumber":"392873821492","displayName":"SE2-CICD","name":"projects/se2-cicd-c4467","resources":{"hostingSite":"se2-cicd-c4467"},"state":"ACTIVE","etag":"1_b4268406-d133-42ff-b028-c6759fa31247"}
+[info] i  hosting[se2-cicd-c4467]: Serving hosting files from: public {"metadata":{"emulator":{"name":"hosting"},"message":"Serving hosting files from: \u001b[1mpublic\u001b[22m"}}
+[info] +  hosting[se2-cicd-c4467]: Local server: http://127.0.0.1:9999 {"metadata":{"emulator":{"name":"hosting"},"message":"Local server: \u001b[4m\u001b[1mhttp://127.0.0.1:9999\u001b[22m\u001b[24m"}}
+[warn] !  emulators: The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project. {"metadata":{"emulator":{"name":"hub"},"message":"The Emulator UI is not starting, either because none of the running emulators have a UI component or the Emulator UI cannot determine the Project ID. Pass the --project flag to specify a project."}}
+[debug] [2025-04-04T17:28:51.870Z] Could not find VSCode notification endpoint: FetchError: request to http://localhost:40001/vscode/notify failed, reason: . If you are not running the Firebase Data Connect VSCode extension, this is expected and not an issue.
+[info] 
+┌─────────────────────────────────────────────────────────────┐
+│ ✔  All emulators ready! It is now safe to connect your app. │
+└─────────────────────────────────────────────────────────────┘
+
+┌──────────┬────────────────┐
+│ Emulator │ Host:Port      │
+├──────────┼────────────────┤
+│ Hosting  │ 127.0.0.1:9999 │
+└──────────┴────────────────┘
+  Emulator Hub host: 127.0.0.1 port: 4400
+  Other reserved ports: 4500
+
+Issues? Report them at https://github.com/firebase/firebase-tools/issues and attach the *-debug.log files.
+ 
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2025:17:29:09 +0000] "GET / HTTP/1.1" 200 371 "-" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2025:17:29:09 +0000] \"GET / HTTP/1.1\" 200 371 \"-\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\""}}
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2025:17:29:09 +0000] "GET /pug.jpg HTTP/1.1" 200 770433 "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2025:17:29:09 +0000] \"GET /pug.jpg HTTP/1.1\" 200 770433 \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\""}}
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2025:17:29:09 +0000] "GET /bundle.js HTTP/1.1" 200 - "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2025:17:29:09 +0000] \"GET /bundle.js HTTP/1.1\" 200 - \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\""}}
+[info] i  hosting: 127.0.0.1 - - [04/Apr/2025:17:29:09 +0000] "GET /favicon.ico HTTP/1.1" 404 - "http://127.0.0.1:9999/" "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0" {"metadata":{"emulator":{"name":"hosting"},"message":"127.0.0.1 - - [04/Apr/2025:17:29:09 +0000] \"GET /favicon.ico HTTP/1.1\" 404 - \"http://127.0.0.1:9999/\" \"Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:137.0) Gecko/20100101 Firefox/137.0\""}}
